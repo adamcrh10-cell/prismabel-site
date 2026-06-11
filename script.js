@@ -592,7 +592,7 @@ try{
    ===================================================================== */
 
 const SPEED_MUL=[1,1.30]; /* Overnight-toeslag (est) */
-const SX=h=>Math.ceil(h*1.30*1.21*2)/2; /* HT -> verkoop incl btw: Saxoprint x 1,30 marge x 1,21 btw, afgerond op 0,50 */
+const SX=h=>Math.round(h*1.30*1.21*100)/100; /* verkoop = Saxoprint HT × btw 1,21 × marge 1,30 — exact op de cent */ /* HT -> verkoop incl btw: Saxoprint x 1,30 marge x 1,21 btw, afgerond op 0,50 */
 const PRICES={
  cards:{qty:0,matrix:{
   /* HT-matrix per papier × oplage [50,100,250,500,1000,2000,2500,5000] — geoogst fr.saxoprint.be 12/06/2026, zie SAXOPRINT-DATA-KAARTJES.md */
@@ -688,7 +688,7 @@ function matrixPrice(id,sel,opts){
   if(sel[speedI]===1&&t>M.ovMax)return null;
   let tot=ht*1.30*1.21;
   if(!(opts&&opts.noExtras))tot*=(sel[speedI]===1?(SPEED_MUL[1]||1):1);
-  return Math.ceil(tot*2)/2;
+  return Math.round(tot*100)/100;
 }
 function priceFor(id,sel,opts){
   const P=PRICES[id];if(!P||!Array.isArray(sel))return null;
@@ -721,7 +721,7 @@ function priceFor(id,sel,opts){
   if(!(opts&&opts.noExtras)){
     total*=SPEED_MUL[sel[speedI]]||1;
   }
-  return Math.ceil(total*2)/2;
+  return Math.round(total*100)/100;
 }
 function itemPrice(it){return priceFor(it.id,it.sel);}
 function saveCart(){try{localStorage.setItem(CART_KEY,JSON.stringify(cart))}catch(e){}updateBadge();}
@@ -780,7 +780,7 @@ function minFrom(id){
     const scan=a=>a.forEach(v=>{if(v!=null&&(mh===null||v<mh))mh=v;});
     M.papers.forEach(scan);scan(M.p1);scan(M.p4);
     if(mh===null)return null;
-    return Math.ceil(mh*Math.min(...M.col)*1.30*1.21*2)/2;
+    return Math.round(mh*Math.min(...M.col)*1.30*1.21*100)/100;
   }
   let best=null;
   const upd=v=>{if(v!=null&&(best===null||v<best))best=v;};
@@ -800,7 +800,7 @@ function minFrom(id){
 function fillFrom(){
   document.querySelectorAll('[data-from]').forEach(el=>{
     const v=minFrom(el.getAttribute('data-from'));
-    el.textContent=v!=null?T[lang].pr_from+' \u20ac '+(v%1?v.toFixed(2):v):T[lang].cart_onreq;
+    el.textContent=v!=null?T[lang].pr_from+' \u20ac '+v.toFixed(2):T[lang].cart_onreq;
   });
 }
 
