@@ -619,6 +619,7 @@ const PRICES={
   disp:1.2869,
   pell:[[1.6088,1.7697],[1.3749,1.5125],[1.7874,1.9661]],
   uv:[1.65,1.8149],
+  finOK:[1,1,1,1,0,0,1,0,0,0,0,1,1,1,0], /* Saxoprint: finition enkel op gestreken/postkaart-papieren */
   ovMax:6}},
  flyers:{qty:0,ovMax:5,
   /* ECHT (HT) A6 135g 4/4: 100=17,41 250=17,63 500=17,75 1000=19,04 2500=32,80 */
@@ -682,6 +683,7 @@ function matrixPrice(id,sel,opts){
   ht*=M.fmt[sel[1]]||1;
   ht*=M.col[sel[3]]||1;
   const fin=sel[6];
+  if(fin>0&&M.finOK&&!M.finOK[sel[4]])return null;
   if(fin===1)ht*=M.disp;
   else if(fin===2)ht*=M.pell[sel[7]][sel[8]];
   else if(fin===3)ht*=M.uv[sel[8]];
