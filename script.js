@@ -36,7 +36,7 @@ const T = {
   r_tag:"Klantbeoordelingen",r_h2:"Wat onze klanten zeggen",r_count:"56 reviews op Google",r_link:"Bekijk alle reviews →",
   sf_t:"📎 Ontwerp al klaar?",sf_p:"Stuur uw bestand meteen door — wij printen het voor u.",sf_mail:"Mail uw ontwerp",sf_wa:"Stuur via WhatsApp",
   cart_t:"Winkelmandje",cart_total:"Totaal",cart_onreq:"Prijs op aanvraag",cart_empty:"Uw mandje is nog leeg. Klik op een dienst om iets samen te stellen.",cart_quote:"Vraag offerte voor dit mandje",cart_note:"Definitieve prijzen volgen in uw offerte.",cart_sum_w:"Mijn winkelmandje:",pay_t:"Betalen",pay_v:"Bancontact · cash · betaallink bij offerte",
-  hero_rate:"4,4 op Google · 56 reviews",usp1:"Gratis offerte",usp2:"Gratis levering in heel België",usp3:"Sinds 2008 in Brussel",card2_t:"Flyers A6 — 1000 st.",card2_p:"135g · glanzend gestreken",card3_t:"Posters A1",card3_p:"Groot formaat in topkwaliteit",card4_t:"Brochures A4",card4_p:"Geniet, full colour",pr_from:"vanaf",intro_go:"Bekijk onze diensten →",sb1:"jaar ervaring",sb2:"op Google · 56 reviews",sb3:"Overnight-levering mogelijk",sb4:"100% Belgisch bedrijf",acc_t:"Mijn aanvragen",acc_note:"Uw offerte-aanvragen, lokaal bewaard op dit toestel.",acc_empty:"Nog geen aanvragen. Stel een product samen of vul het offerteformulier in.",acc_sent:"verzonden",f_files:"Bestanden (optioneel)",f_drop:"Sleep bestanden hierheen of klik om te kiezen",f_attach:"Vergeet niet dezelfde bestanden als bijlage in uw e-mail toe te voegen.",cb_pick:"Wat wilt u drukken? Kies hieronder en stel meteen samen:",lg_priv:"Privacybeleid",lg_cook:"Cookiebeleid",lg_terms:"Algemene voorwaarden",f_phone:"Telefoon (optioneel)",f_dead:"Gewenste deadline",lgp_b:"Verantwoordelijke: Prismabel BV, Maurice Lemonnierlaan 54, 1000 Brussel — BTW BE 0896.553.974 — info@prismabel.com.\n\nWelke gegevens? Alleen wat u zelf doorgeeft bij een offerte of bestelling: naam, e-mailadres, telefoonnummer en uw drukbestanden.\n\nWaarvoor? Uitsluitend om uw offerte op te maken, uw bestelling uit te voeren en u daarover te contacteren.\n\nDelen? Uw gegevens worden nooit verkocht. Ze worden enkel gedeeld met onze drukpartner wanneer dat nodig is om uw bestelling te produceren en te leveren.\n\nBewaring: zolang nodig voor uw bestelling en de wettelijke (boekhoudkundige) termijnen.\n\nUw rechten: u kunt uw gegevens opvragen, laten verbeteren of laten verwijderen via info@prismabel.com. Klachten kunt u richten aan de Gegevensbeschermingsautoriteit (gegevensbeschermingsautoriteit.be).",lgc_b:"Deze website gebruikt geen tracking-, advertentie- of analysecookies.\n\nWij bewaren enkel lokale gegevens in uw eigen browser (localStorage): uw winkelmandje en uw taalkeuze. Die informatie blijft op uw toestel en wordt nergens naartoe verstuurd.\n\nDe ingebouwde Google Maps-kaart op de contactpagina kan bij het laden cookies van Google plaatsen. Daarop is het privacybeleid van Google van toepassing.",lgt_b:"1. Offertes zijn gratis en vrijblijvend. De prijs in uw offerte geldt voor de erin beschreven opdracht.\n\n2. Vermelde prijzen zijn inclusief btw, tenzij anders aangegeven.\n\n3. De productie start na uw goedkeuring van de digitale proef. Controleer die zorgvuldig: na goedkeuring zijn wijzigingen niet meer mogelijk.\n\n4. U garandeert dat u de rechten bezit op de aangeleverde bestanden (teksten, beelden, logo's).\n\n5. Kleine kleurafwijkingen zijn eigen aan het drukproces en vormen geen gebrek.\n\n6. Levering of afhaling gebeurt zoals afgesproken in de offerte. Vermelde leveringstermijnen zijn indicatief.\n\n7. Betaling: Bancontact, cash of via betaallink.\n\n8. Klachten meldt u binnen 7 dagen na ontvangst via info@prismabel.com.\n\n9. Belgisch recht is van toepassing; bevoegde rechtbanken: Brussel.\n\nPrismabel BV — BTW BE 0896.553.974 — Maurice Lemonnierlaan 54, 1000 Brussel.",pr_unit:"per stuk",pr_vol:"volumevoordeel",pr_incl:"incl. btw",faq_tag:"Veelgestelde vragen",faq_h2:"Snel een antwoord",
+  hero_rate:"4,4 op Google · 56 reviews",usp1:"Gratis offerte",usp2:"Gratis levering in heel België",usp3:"Sinds 2008 in Brussel",card2_t:"Flyers A6 — 1000 st.",card2_p:"135g · glanzend gestreken",card3_t:"Posters A1",card3_p:"Groot formaat in topkwaliteit",card4_t:"Brochures A4",card4_p:"Geniet, full colour",pr_from:"vanaf",gab_btn:"Download sjabloon (PDF)",intro_go:"Bekijk onze diensten →",sb1:"jaar ervaring",sb2:"op Google · 56 reviews",sb3:"Overnight-levering mogelijk",sb4:"100% Belgisch bedrijf",acc_t:"Mijn aanvragen",acc_note:"Uw offerte-aanvragen, lokaal bewaard op dit toestel.",acc_empty:"Nog geen aanvragen. Stel een product samen of vul het offerteformulier in.",acc_sent:"verzonden",f_files:"Bestanden (optioneel)",f_drop:"Sleep bestanden hierheen of klik om te kiezen",f_attach:"Vergeet niet dezelfde bestanden als bijlage in uw e-mail toe te voegen.",cb_pick:"Wat wilt u drukken? Kies hieronder en stel meteen samen:",lg_priv:"Privacybeleid",lg_cook:"Cookiebeleid",lg_terms:"Algemene voorwaarden",f_phone:"Telefoon (optioneel)",f_dead:"Gewenste deadline",lgp_b:"Verantwoordelijke: Prismabel BV, Maurice Lemonnierlaan 54, 1000 Brussel — BTW BE 0896.553.974 — info@prismabel.com.\n\nWelke gegevens? Alleen wat u zelf doorgeeft bij een offerte of bestelling: naam, e-mailadres, telefoonnummer en uw drukbestanden.\n\nWaarvoor? Uitsluitend om uw offerte op te maken, uw bestelling uit te voeren en u daarover te contacteren.\n\nDelen? Uw gegevens worden nooit verkocht. Ze worden enkel gedeeld met onze drukpartner wanneer dat nodig is om uw bestelling te produceren en te leveren.\n\nBewaring: zolang nodig voor uw bestelling en de wettelijke (boekhoudkundige) termijnen.\n\nUw rechten: u kunt uw gegevens opvragen, laten verbeteren of laten verwijderen via info@prismabel.com. Klachten kunt u richten aan de Gegevensbeschermingsautoriteit (gegevensbeschermingsautoriteit.be).",lgc_b:"Deze website gebruikt geen tracking-, advertentie- of analysecookies.\n\nWij bewaren enkel lokale gegevens in uw eigen browser (localStorage): uw winkelmandje en uw taalkeuze. Die informatie blijft op uw toestel en wordt nergens naartoe verstuurd.\n\nDe ingebouwde Google Maps-kaart op de contactpagina kan bij het laden cookies van Google plaatsen. Daarop is het privacybeleid van Google van toepassing.",lgt_b:"1. Offertes zijn gratis en vrijblijvend. De prijs in uw offerte geldt voor de erin beschreven opdracht.\n\n2. Vermelde prijzen zijn inclusief btw, tenzij anders aangegeven.\n\n3. De productie start na uw goedkeuring van de digitale proef. Controleer die zorgvuldig: na goedkeuring zijn wijzigingen niet meer mogelijk.\n\n4. U garandeert dat u de rechten bezit op de aangeleverde bestanden (teksten, beelden, logo's).\n\n5. Kleine kleurafwijkingen zijn eigen aan het drukproces en vormen geen gebrek.\n\n6. Levering of afhaling gebeurt zoals afgesproken in de offerte. Vermelde leveringstermijnen zijn indicatief.\n\n7. Betaling: Bancontact, cash of via betaallink.\n\n8. Klachten meldt u binnen 7 dagen na ontvangst via info@prismabel.com.\n\n9. Belgisch recht is van toepassing; bevoegde rechtbanken: Brussel.\n\nPrismabel BV — BTW BE 0896.553.974 — Maurice Lemonnierlaan 54, 1000 Brussel.",pr_unit:"per stuk",pr_vol:"volumevoordeel",pr_incl:"incl. btw",faq_tag:"Veelgestelde vragen",faq_h2:"Snel een antwoord",
   faq_q1:"Hoe snel is mijn drukwerk klaar?",faq_a1:"Kopies en klein winkelwerk: vaak dezelfde dag klaar. Drukwerk uit productie (visitekaartjes, flyers, posters...): gratis geleverd binnen enkele werkdagen, of met Overnight al de volgende werkdag (bestellen vóór 12u, beperkte oplages).",
   faq_q2:"Welke bestanden kan ik aanleveren?",faq_a2:"PDF (aanbevolen), AI, PSD, PNG of JPG. Geen drukklaar bestand? Onze designers maken het in orde.",
   faq_q3:"Kan ik laten leveren?",faq_a3:"Afhalen in de winkel is gratis, en levering aan huis in heel België is ook gratis inbegrepen.",
@@ -105,7 +105,7 @@ const T = {
   r_tag:"Avis clients",r_h2:"Ce que disent nos clients",r_count:"56 avis sur Google",r_link:"Voir tous les avis →",
   sf_t:"📎 Votre design est prêt ?",sf_p:"Envoyez votre fichier directement — nous l'imprimons pour vous.",sf_mail:"Envoyer par e-mail",sf_wa:"Envoyer par WhatsApp",
   cart_t:"Panier",cart_total:"Total",cart_onreq:"Prix sur demande",cart_empty:"Votre panier est vide. Cliquez sur un service pour composer un produit.",cart_quote:"Demander un devis pour ce panier",cart_note:"Les prix définitifs suivront dans votre devis.",cart_sum_w:"Mon panier :",pay_t:"Paiement",pay_v:"Bancontact · espèces · lien de paiement avec le devis",
-  hero_rate:"4,4 sur Google · 56 avis",usp1:"Devis gratuit",usp2:"Livraison gratuite dans toute la Belgique",usp3:"Depuis 2008 à Bruxelles",card2_t:"Flyers A6 — 1000 ex.",card2_p:"135g · couché brillant",card3_t:"Affiches A1",card3_p:"Grand format en haute qualité",card4_t:"Brochures A4",card4_p:"Agrafées, quadrichromie",pr_from:"à partir de",intro_go:"Voir nos services →",sb1:"ans d'expérience",sb2:"sur Google · 56 avis",sb3:"livraison overnight possible",sb4:"entreprise 100% belge",acc_t:"Mes demandes",acc_note:"Vos demandes de devis, conservées localement sur cet appareil.",acc_empty:"Pas encore de demandes. Composez un produit ou remplissez le formulaire de devis.",acc_sent:"envoyée",f_files:"Fichiers (facultatif)",f_drop:"Glissez vos fichiers ici ou cliquez pour choisir",f_attach:"N'oubliez pas de joindre ces fichiers à votre e-mail.",cb_pick:"Que voulez-vous imprimer ? Choisissez ci-dessous :",lg_priv:"Politique de confidentialité",lg_cook:"Politique de cookies",lg_terms:"Conditions générales",f_phone:"Téléphone (facultatif)",f_dead:"Échéance souhaitée",lgp_b:"Responsable : Prismabel SRL, Bd Maurice Lemonnier 54, 1000 Bruxelles — TVA BE 0896.553.974 — info@prismabel.com.\n\nQuelles données ? Uniquement ce que vous communiquez lors d'un devis ou d'une commande : nom, adresse e-mail, numéro de téléphone et vos fichiers d'impression.\n\nPourquoi ? Exclusivement pour établir votre devis, exécuter votre commande et vous contacter à ce sujet.\n\nPartage ? Vos données ne sont jamais vendues. Elles ne sont partagées avec notre partenaire d'impression que si nécessaire pour produire et livrer votre commande.\n\nConservation : aussi longtemps que nécessaire pour votre commande et les délais légaux (comptables).\n\nVos droits : vous pouvez consulter, corriger ou faire supprimer vos données via info@prismabel.com. Réclamations : Autorité de protection des données (autoriteprotectiondonnees.be).",lgc_b:"Ce site n'utilise aucun cookie de suivi, de publicité ou d'analyse.\n\nNous ne conservons que des données locales dans votre propre navigateur (localStorage) : votre panier et votre choix de langue. Ces informations restent sur votre appareil et ne sont transmises nulle part.\n\nLa carte Google Maps intégrée sur la page contact peut déposer des cookies de Google lors de son chargement. La politique de confidentialité de Google s'y applique.",lgt_b:"1. Les devis sont gratuits et sans engagement. Le prix de votre devis vaut pour la mission qui y est décrite.\n\n2. Les prix mentionnés s'entendent TVA comprise, sauf indication contraire.\n\n3. La production démarre après votre approbation de l'épreuve numérique. Vérifiez-la soigneusement : après approbation, aucune modification n'est possible.\n\n4. Vous garantissez détenir les droits sur les fichiers fournis (textes, images, logos).\n\n5. De légères variations de couleur sont propres au procédé d'impression et ne constituent pas un défaut.\n\n6. La livraison ou l'enlèvement a lieu comme convenu dans le devis. Les délais de livraison mentionnés sont indicatifs.\n\n7. Paiement : Bancontact, espèces ou lien de paiement.\n\n8. Les réclamations doivent être signalées dans les 7 jours suivant la réception via info@prismabel.com.\n\n9. Le droit belge est applicable ; tribunaux compétents : Bruxelles.\n\nPrismabel SRL — TVA BE 0896.553.974 — Bd Maurice Lemonnier 54, 1000 Bruxelles.",pr_unit:"par pièce",pr_vol:"avantage volume",pr_incl:"TVAC",faq_tag:"Questions fréquentes",faq_h2:"Une réponse rapide",
+  hero_rate:"4,4 sur Google · 56 avis",usp1:"Devis gratuit",usp2:"Livraison gratuite dans toute la Belgique",usp3:"Depuis 2008 à Bruxelles",card2_t:"Flyers A6 — 1000 ex.",card2_p:"135g · couché brillant",card3_t:"Affiches A1",card3_p:"Grand format en haute qualité",card4_t:"Brochures A4",card4_p:"Agrafées, quadrichromie",pr_from:"à partir de",gab_btn:"Télécharger le gabarit (PDF)",intro_go:"Voir nos services →",sb1:"ans d'expérience",sb2:"sur Google · 56 avis",sb3:"livraison overnight possible",sb4:"entreprise 100% belge",acc_t:"Mes demandes",acc_note:"Vos demandes de devis, conservées localement sur cet appareil.",acc_empty:"Pas encore de demandes. Composez un produit ou remplissez le formulaire de devis.",acc_sent:"envoyée",f_files:"Fichiers (facultatif)",f_drop:"Glissez vos fichiers ici ou cliquez pour choisir",f_attach:"N'oubliez pas de joindre ces fichiers à votre e-mail.",cb_pick:"Que voulez-vous imprimer ? Choisissez ci-dessous :",lg_priv:"Politique de confidentialité",lg_cook:"Politique de cookies",lg_terms:"Conditions générales",f_phone:"Téléphone (facultatif)",f_dead:"Échéance souhaitée",lgp_b:"Responsable : Prismabel SRL, Bd Maurice Lemonnier 54, 1000 Bruxelles — TVA BE 0896.553.974 — info@prismabel.com.\n\nQuelles données ? Uniquement ce que vous communiquez lors d'un devis ou d'une commande : nom, adresse e-mail, numéro de téléphone et vos fichiers d'impression.\n\nPourquoi ? Exclusivement pour établir votre devis, exécuter votre commande et vous contacter à ce sujet.\n\nPartage ? Vos données ne sont jamais vendues. Elles ne sont partagées avec notre partenaire d'impression que si nécessaire pour produire et livrer votre commande.\n\nConservation : aussi longtemps que nécessaire pour votre commande et les délais légaux (comptables).\n\nVos droits : vous pouvez consulter, corriger ou faire supprimer vos données via info@prismabel.com. Réclamations : Autorité de protection des données (autoriteprotectiondonnees.be).",lgc_b:"Ce site n'utilise aucun cookie de suivi, de publicité ou d'analyse.\n\nNous ne conservons que des données locales dans votre propre navigateur (localStorage) : votre panier et votre choix de langue. Ces informations restent sur votre appareil et ne sont transmises nulle part.\n\nLa carte Google Maps intégrée sur la page contact peut déposer des cookies de Google lors de son chargement. La politique de confidentialité de Google s'y applique.",lgt_b:"1. Les devis sont gratuits et sans engagement. Le prix de votre devis vaut pour la mission qui y est décrite.\n\n2. Les prix mentionnés s'entendent TVA comprise, sauf indication contraire.\n\n3. La production démarre après votre approbation de l'épreuve numérique. Vérifiez-la soigneusement : après approbation, aucune modification n'est possible.\n\n4. Vous garantissez détenir les droits sur les fichiers fournis (textes, images, logos).\n\n5. De légères variations de couleur sont propres au procédé d'impression et ne constituent pas un défaut.\n\n6. La livraison ou l'enlèvement a lieu comme convenu dans le devis. Les délais de livraison mentionnés sont indicatifs.\n\n7. Paiement : Bancontact, espèces ou lien de paiement.\n\n8. Les réclamations doivent être signalées dans les 7 jours suivant la réception via info@prismabel.com.\n\n9. Le droit belge est applicable ; tribunaux compétents : Bruxelles.\n\nPrismabel SRL — TVA BE 0896.553.974 — Bd Maurice Lemonnier 54, 1000 Bruxelles.",pr_unit:"par pièce",pr_vol:"avantage volume",pr_incl:"TVAC",faq_tag:"Questions fréquentes",faq_h2:"Une réponse rapide",
   faq_q1:"Quand mes impressions seront-elles prêtes ?",faq_a1:"Copies et petits travaux en magasin : souvent le jour même. Impressions de production (cartes, flyers, affiches...) : livraison gratuite en quelques jours ouvrables, ou en Overnight dès le jour ouvrable suivant (commander avant 12h, tirages limités).",
   faq_q2:"Quels fichiers puis-je fournir ?",faq_a2:"PDF (recommandé), AI, PSD, PNG ou JPG. Pas de fichier prêt à imprimer ? Nos designers s'en chargent.",
   faq_q3:"Livrez-vous ?",faq_a3:"Le retrait en magasin est gratuit, et la livraison à domicile partout en Belgique est également incluse gratuitement.",
@@ -174,7 +174,7 @@ const T = {
   r_tag:"Customer reviews",r_h2:"What our customers say",r_count:"56 reviews on Google",r_link:"See all reviews →",
   sf_t:"📎 Design ready to go?",sf_p:"Send us your file right away — we'll print it for you.",sf_mail:"Email your design",sf_wa:"Send via WhatsApp",
   cart_t:"Basket",cart_total:"Total",cart_onreq:"Price on request",cart_empty:"Your basket is empty. Click a service to configure a product.",cart_quote:"Request a quote for this basket",cart_note:"Final prices will follow in your quote.",cart_sum_w:"My basket:",pay_t:"Payment",pay_v:"Bancontact · cash · payment link with your quote",
-  hero_rate:"4.4 on Google · 56 reviews",usp1:"Free quote",usp2:"Free delivery across Belgium",usp3:"In Brussels since 2008",card2_t:"Flyers A6 — 1,000 pcs",card2_p:"135gsm gloss coated",card3_t:"Posters A1",card3_p:"Large format, top quality",card4_t:"Brochures A4",card4_p:"Stapled, full colour",pr_from:"from",intro_go:"See our services →",sb1:"years of experience",sb2:"on Google · 56 reviews",sb3:"overnight delivery available",sb4:"100% Belgian company",acc_t:"My requests",acc_note:"Your quote requests, stored locally on this device.",acc_empty:"No requests yet. Configure a product or fill in the quote form.",acc_sent:"sent",f_files:"Files (optional)",f_drop:"Drag files here or click to choose",f_attach:"Do not forget to attach these files to your e-mail.",cb_pick:"What would you like to print? Pick below and configure right away:",lg_priv:"Privacy policy",lg_cook:"Cookie policy",lg_terms:"Terms & conditions",f_phone:"Phone (optional)",f_dead:"Desired deadline",lgp_b:"Controller: Prismabel BV, Maurice Lemonnierlaan 54, 1000 Brussels — VAT BE 0896.553.974 — info@prismabel.com.\n\nWhat data? Only what you provide with a quote or order: name, e-mail address, phone number and your print files.\n\nWhy? Solely to prepare your quote, process your order and contact you about it.\n\nSharing? Your data is never sold. It is only shared with our print partner when needed to produce and deliver your order.\n\nRetention: as long as needed for your order and the statutory (accounting) periods.\n\nYour rights: you can request, correct or delete your data via info@prismabel.com. Complaints: Belgian Data Protection Authority (dataprotectionauthority.be).",lgc_b:"This website uses no tracking, advertising or analytics cookies.\n\nWe only keep local data in your own browser (localStorage): your basket and language choice. That information stays on your device and is never sent anywhere.\n\nThe embedded Google Maps map on the contact page may set Google cookies when it loads. Google's privacy policy applies to those.",lgt_b:"1. Quotes are free and without obligation. The price in your quote applies to the job described in it.\n\n2. Prices shown include VAT unless stated otherwise.\n\n3. Production starts after you approve the digital proof. Check it carefully: after approval no changes are possible.\n\n4. You guarantee that you hold the rights to the supplied files (texts, images, logos).\n\n5. Minor colour deviations are inherent to the printing process and do not constitute a defect.\n\n6. Delivery or pickup takes place as agreed in the quote. Stated delivery times are indicative.\n\n7. Payment: Bancontact, cash or payment link.\n\n8. Complaints must be reported within 7 days of receipt via info@prismabel.com.\n\n9. Belgian law applies; competent courts: Brussels.\n\nPrismabel BV — VAT BE 0896.553.974 — Maurice Lemonnierlaan 54, 1000 Brussels.",pr_unit:"per piece",pr_vol:"volume saving",pr_incl:"incl. VAT",faq_tag:"Frequently asked questions",faq_h2:"Quick answers",
+  hero_rate:"4.4 on Google · 56 reviews",usp1:"Free quote",usp2:"Free delivery across Belgium",usp3:"In Brussels since 2008",card2_t:"Flyers A6 — 1,000 pcs",card2_p:"135gsm gloss coated",card3_t:"Posters A1",card3_p:"Large format, top quality",card4_t:"Brochures A4",card4_p:"Stapled, full colour",pr_from:"from",gab_btn:"Download template (PDF)",intro_go:"See our services →",sb1:"years of experience",sb2:"on Google · 56 reviews",sb3:"overnight delivery available",sb4:"100% Belgian company",acc_t:"My requests",acc_note:"Your quote requests, stored locally on this device.",acc_empty:"No requests yet. Configure a product or fill in the quote form.",acc_sent:"sent",f_files:"Files (optional)",f_drop:"Drag files here or click to choose",f_attach:"Do not forget to attach these files to your e-mail.",cb_pick:"What would you like to print? Pick below and configure right away:",lg_priv:"Privacy policy",lg_cook:"Cookie policy",lg_terms:"Terms & conditions",f_phone:"Phone (optional)",f_dead:"Desired deadline",lgp_b:"Controller: Prismabel BV, Maurice Lemonnierlaan 54, 1000 Brussels — VAT BE 0896.553.974 — info@prismabel.com.\n\nWhat data? Only what you provide with a quote or order: name, e-mail address, phone number and your print files.\n\nWhy? Solely to prepare your quote, process your order and contact you about it.\n\nSharing? Your data is never sold. It is only shared with our print partner when needed to produce and deliver your order.\n\nRetention: as long as needed for your order and the statutory (accounting) periods.\n\nYour rights: you can request, correct or delete your data via info@prismabel.com. Complaints: Belgian Data Protection Authority (dataprotectionauthority.be).",lgc_b:"This website uses no tracking, advertising or analytics cookies.\n\nWe only keep local data in your own browser (localStorage): your basket and language choice. That information stays on your device and is never sent anywhere.\n\nThe embedded Google Maps map on the contact page may set Google cookies when it loads. Google's privacy policy applies to those.",lgt_b:"1. Quotes are free and without obligation. The price in your quote applies to the job described in it.\n\n2. Prices shown include VAT unless stated otherwise.\n\n3. Production starts after you approve the digital proof. Check it carefully: after approval no changes are possible.\n\n4. You guarantee that you hold the rights to the supplied files (texts, images, logos).\n\n5. Minor colour deviations are inherent to the printing process and do not constitute a defect.\n\n6. Delivery or pickup takes place as agreed in the quote. Stated delivery times are indicative.\n\n7. Payment: Bancontact, cash or payment link.\n\n8. Complaints must be reported within 7 days of receipt via info@prismabel.com.\n\n9. Belgian law applies; competent courts: Brussels.\n\nPrismabel BV — VAT BE 0896.553.974 — Maurice Lemonnierlaan 54, 1000 Brussels.",pr_unit:"per piece",pr_vol:"volume saving",pr_incl:"incl. VAT",faq_tag:"Frequently asked questions",faq_h2:"Quick answers",
   faq_q1:"How fast will my print work be ready?",faq_a1:"Copies and small in-shop work: often same day. Production printing (cards, flyers, posters...): free delivery within a few working days, or Overnight by the next working day (order before noon, limited quantities).",
   faq_q2:"Which files can I supply?",faq_a2:"PDF (recommended), AI, PSD, PNG or JPG. No print-ready file? Our designers will sort it out.",
   faq_q3:"Do you deliver?",faq_a3:"Pick-up in the shop is free, and home delivery anywhere in Belgium is also included free of charge.",
@@ -243,7 +243,7 @@ const T = {
   r_tag:"Kundenbewertungen",r_h2:"Was unsere Kunden sagen",r_count:"56 Bewertungen auf Google",r_link:"Alle Bewertungen ansehen →",
   sf_t:"📎 Design schon fertig?",sf_p:"Senden Sie uns Ihre Datei direkt — wir drucken sie für Sie.",sf_mail:"Design per E-Mail senden",sf_wa:"Per WhatsApp",
   cart_t:"Warenkorb",cart_total:"Gesamt",cart_onreq:"Preis auf Anfrage",cart_empty:"Ihr Warenkorb ist leer. Klicken Sie auf eine Leistung, um ein Produkt zu konfigurieren.",cart_quote:"Angebot für diesen Warenkorb anfragen",cart_note:"Endgültige Preise folgen in Ihrem Angebot.",cart_sum_w:"Mein Warenkorb:",pay_t:"Bezahlung",pay_v:"Bancontact · bar · Zahlungslink mit dem Angebot",
-  hero_rate:"4,4 auf Google · 56 Bewertungen",usp1:"Kostenloses Angebot",usp2:"Gratis Lieferung in ganz Belgien",usp3:"Seit 2008 in Brüssel",card2_t:"Flyer A6 — 1.000 St.",card2_p:"135g Bilderdruck glänzend",card3_t:"Plakate A1",card3_p:"Großformat in Topqualität",card4_t:"Broschüren A4",card4_p:"Geheftet, vollfarbig",pr_from:"ab",intro_go:"Unsere Leistungen ansehen →",sb1:"Jahre Erfahrung",sb2:"auf Google · 56 Bewertungen",sb3:"Overnight-Lieferung möglich",sb4:"100% belgisches Unternehmen",acc_t:"Meine Anfragen",acc_note:"Ihre Angebotsanfragen, lokal auf diesem Gerät gespeichert.",acc_empty:"Noch keine Anfragen. Konfigurieren Sie ein Produkt oder nutzen Sie das Formular.",acc_sent:"gesendet",f_files:"Dateien (optional)",f_drop:"Dateien hierher ziehen oder klicken zum Auswählen",f_attach:"Vergessen Sie nicht, diese Dateien Ihrer E-Mail anzuhängen.",cb_pick:"Was möchten Sie drucken? Wählen Sie unten und konfigurieren Sie direkt:",lg_priv:"Datenschutzerklärung",lg_cook:"Cookie-Richtlinie",lg_terms:"AGB",f_phone:"Telefon (optional)",f_dead:"Wunschtermin",lgp_b:"Verantwortlicher: Prismabel BV, Maurice Lemonnierlaan 54, 1000 Brüssel — USt. BE 0896.553.974 — info@prismabel.com.\n\nWelche Daten? Nur was Sie bei einer Anfrage oder Bestellung selbst angeben: Name, E-Mail-Adresse, Telefonnummer und Ihre Druckdateien.\n\nWozu? Ausschließlich um Ihr Angebot zu erstellen, Ihre Bestellung auszuführen und Sie dazu zu kontaktieren.\n\nWeitergabe? Ihre Daten werden nie verkauft. Sie werden nur mit unserem Druckpartner geteilt, soweit dies für Produktion und Lieferung Ihrer Bestellung nötig ist.\n\nAufbewahrung: solange für Ihre Bestellung und die gesetzlichen (buchhalterischen) Fristen erforderlich.\n\nIhre Rechte: Sie können Ihre Daten über info@prismabel.com einsehen, berichtigen oder löschen lassen. Beschwerden: belgische Datenschutzbehörde.",lgc_b:"Diese Website verwendet keine Tracking-, Werbe- oder Analyse-Cookies.\n\nWir speichern nur lokale Daten in Ihrem eigenen Browser (localStorage): Ihren Warenkorb und Ihre Sprachwahl. Diese Informationen bleiben auf Ihrem Gerät und werden nirgendwohin gesendet.\n\nDie eingebettete Google-Maps-Karte auf der Kontaktseite kann beim Laden Cookies von Google setzen. Dafür gilt die Datenschutzerklärung von Google.",lgt_b:"1. Angebote sind kostenlos und unverbindlich. Der Preis in Ihrem Angebot gilt für den darin beschriebenen Auftrag.\n\n2. Genannte Preise verstehen sich inkl. MwSt., sofern nicht anders angegeben.\n\n3. Die Produktion beginnt nach Ihrer Freigabe des digitalen Proofs. Prüfen Sie ihn sorgfältig: nach Freigabe sind keine Änderungen mehr möglich.\n\n4. Sie garantieren, dass Sie die Rechte an den gelieferten Dateien besitzen (Texte, Bilder, Logos).\n\n5. Geringe Farbabweichungen sind drucktechnisch bedingt und stellen keinen Mangel dar.\n\n6. Lieferung oder Abholung erfolgt wie im Angebot vereinbart. Genannte Lieferzeiten sind Richtwerte.\n\n7. Zahlung: Bancontact, bar oder per Zahlungslink.\n\n8. Beanstandungen melden Sie innerhalb von 7 Tagen nach Erhalt an info@prismabel.com.\n\n9. Es gilt belgisches Recht; zuständige Gerichte: Brüssel.\n\nPrismabel BV — USt. BE 0896.553.974 — Maurice Lemonnierlaan 54, 1000 Brüssel.",pr_unit:"pro Stück",pr_vol:"Mengenvorteil",pr_incl:"inkl. MwSt.",faq_tag:"Häufige Fragen",faq_h2:"Schnelle Antworten",
+  hero_rate:"4,4 auf Google · 56 Bewertungen",usp1:"Kostenloses Angebot",usp2:"Gratis Lieferung in ganz Belgien",usp3:"Seit 2008 in Brüssel",card2_t:"Flyer A6 — 1.000 St.",card2_p:"135g Bilderdruck glänzend",card3_t:"Plakate A1",card3_p:"Großformat in Topqualität",card4_t:"Broschüren A4",card4_p:"Geheftet, vollfarbig",pr_from:"ab",gab_btn:"Vorlage herunterladen (PDF)",intro_go:"Unsere Leistungen ansehen →",sb1:"Jahre Erfahrung",sb2:"auf Google · 56 Bewertungen",sb3:"Overnight-Lieferung möglich",sb4:"100% belgisches Unternehmen",acc_t:"Meine Anfragen",acc_note:"Ihre Angebotsanfragen, lokal auf diesem Gerät gespeichert.",acc_empty:"Noch keine Anfragen. Konfigurieren Sie ein Produkt oder nutzen Sie das Formular.",acc_sent:"gesendet",f_files:"Dateien (optional)",f_drop:"Dateien hierher ziehen oder klicken zum Auswählen",f_attach:"Vergessen Sie nicht, diese Dateien Ihrer E-Mail anzuhängen.",cb_pick:"Was möchten Sie drucken? Wählen Sie unten und konfigurieren Sie direkt:",lg_priv:"Datenschutzerklärung",lg_cook:"Cookie-Richtlinie",lg_terms:"AGB",f_phone:"Telefon (optional)",f_dead:"Wunschtermin",lgp_b:"Verantwortlicher: Prismabel BV, Maurice Lemonnierlaan 54, 1000 Brüssel — USt. BE 0896.553.974 — info@prismabel.com.\n\nWelche Daten? Nur was Sie bei einer Anfrage oder Bestellung selbst angeben: Name, E-Mail-Adresse, Telefonnummer und Ihre Druckdateien.\n\nWozu? Ausschließlich um Ihr Angebot zu erstellen, Ihre Bestellung auszuführen und Sie dazu zu kontaktieren.\n\nWeitergabe? Ihre Daten werden nie verkauft. Sie werden nur mit unserem Druckpartner geteilt, soweit dies für Produktion und Lieferung Ihrer Bestellung nötig ist.\n\nAufbewahrung: solange für Ihre Bestellung und die gesetzlichen (buchhalterischen) Fristen erforderlich.\n\nIhre Rechte: Sie können Ihre Daten über info@prismabel.com einsehen, berichtigen oder löschen lassen. Beschwerden: belgische Datenschutzbehörde.",lgc_b:"Diese Website verwendet keine Tracking-, Werbe- oder Analyse-Cookies.\n\nWir speichern nur lokale Daten in Ihrem eigenen Browser (localStorage): Ihren Warenkorb und Ihre Sprachwahl. Diese Informationen bleiben auf Ihrem Gerät und werden nirgendwohin gesendet.\n\nDie eingebettete Google-Maps-Karte auf der Kontaktseite kann beim Laden Cookies von Google setzen. Dafür gilt die Datenschutzerklärung von Google.",lgt_b:"1. Angebote sind kostenlos und unverbindlich. Der Preis in Ihrem Angebot gilt für den darin beschriebenen Auftrag.\n\n2. Genannte Preise verstehen sich inkl. MwSt., sofern nicht anders angegeben.\n\n3. Die Produktion beginnt nach Ihrer Freigabe des digitalen Proofs. Prüfen Sie ihn sorgfältig: nach Freigabe sind keine Änderungen mehr möglich.\n\n4. Sie garantieren, dass Sie die Rechte an den gelieferten Dateien besitzen (Texte, Bilder, Logos).\n\n5. Geringe Farbabweichungen sind drucktechnisch bedingt und stellen keinen Mangel dar.\n\n6. Lieferung oder Abholung erfolgt wie im Angebot vereinbart. Genannte Lieferzeiten sind Richtwerte.\n\n7. Zahlung: Bancontact, bar oder per Zahlungslink.\n\n8. Beanstandungen melden Sie innerhalb von 7 Tagen nach Erhalt an info@prismabel.com.\n\n9. Es gilt belgisches Recht; zuständige Gerichte: Brüssel.\n\nPrismabel BV — USt. BE 0896.553.974 — Maurice Lemonnierlaan 54, 1000 Brüssel.",pr_unit:"pro Stück",pr_vol:"Mengenvorteil",pr_incl:"inkl. MwSt.",faq_tag:"Häufige Fragen",faq_h2:"Schnelle Antworten",
   faq_q1:"Wie schnell sind meine Drucksachen fertig?",faq_a1:"Kopien und kleine Arbeiten im Laden: oft am selben Tag. Produktionsdruck (Visitenkarten, Flyer, Poster...): Gratislieferung in wenigen Werktagen, oder per Overnight schon am nächsten Werktag (vor 12 Uhr bestellen, begrenzte Auflagen).",
   faq_q2:"Welche Dateien kann ich liefern?",faq_a2:"PDF (empfohlen), AI, PSD, PNG oder JPG. Keine druckfertige Datei? Unsere Designer kümmern sich darum.",
   faq_q3:"Liefern Sie auch?",faq_a3:"Abholung im Laden ist gratis. Lieferung in Brüssel und ganz Belgien per Kurier oder bpost.",
@@ -401,6 +401,75 @@ const XT={
 };
 function loc(o){if(o[lang]!==undefined)return o[lang];const m=XT[lang];return (m&&m[o.nl])||o.nl;}
 
+/* ===== drukklaar sjabloon (gabarit) als PDF — Saxoprint-specs: 3 mm afloop, 3 mm veiligheidszone ===== */
+function parseMM(t){
+  t=(t||"").replace(",",".");
+  let m=t.match(/(\d+(?:\.\d+)?)\s*[x\u00d7]\s*(\d+(?:\.\d+)?)(?:\s*(mm|cm))?/i);
+  if(m){let w=+m[1],h=+m[2];if((m[3]||"").toLowerCase()==="cm"){w*=10;h*=10;}
+    if(w>=30&&h>=30&&w<=2500&&h<=2500)return[w,h];}
+  const A={A0:[841,1189],A1:[594,841],A2:[420,594],A3:[297,420],A4:[210,297],A5:[148,210],A6:[105,148],A7:[74,105],A8:[52,74],DL:[99,210]};
+  m=t.match(/\b(A[0-8]|DL)\b/i);
+  if(m)return A[m[1].toUpperCase()];
+  return null;
+}
+function gabDims(id,sel){
+  const p=PRODUCTS[id];if(!p)return null;
+  for(let gi=0;gi<p.groups.length;gi++){
+    if(/formaat|^format/i.test(p.groups[gi].label.nl||"")){
+      return parseMM(p.groups[gi].opts[sel[gi]]&&p.groups[gi].opts[sel[gi]].nl);
+    }
+  }
+  return null;
+}
+const GLEG={
+ nl:["Prismabel - drukklaar sjabloon","Rood = afloop (3 mm): laat foto's en kleurvlakken tot hier doorlopen.","Blauw (streepjes) = snijlijn: eindformaat %W x %H mm.","Groen (streepjes) = veiligheidszone: houd tekst en logo's hierbinnen.","Aanleveren: PDF, 300 dpi, CMYK - vragen? info@prismabel.com"],
+ fr:["Prismabel - gabarit pret a imprimer","Rouge = fond perdu (3 mm) : prolongez photos et aplats jusqu'ici.","Bleu (pointilles) = ligne de coupe : format final %W x %H mm.","Vert (pointilles) = zone de securite : gardez textes et logos a l'interieur.","Fichier : PDF, 300 dpi, CMJN - questions ? info@prismabel.com"],
+ en:["Prismabel - print-ready template","Red = bleed (3 mm): extend photos and colours up to here.","Blue (dashed) = trim line: final size %W x %H mm.","Green (dashed) = safe zone: keep text and logos inside.","Supply: PDF, 300 dpi, CMYK - questions? info@prismabel.com"],
+ de:["Prismabel - druckfertige Vorlage","Rot = Beschnitt (3 mm): Fotos und Farben bis hierhin anlegen.","Blau (gestrichelt) = Schnittlinie: Endformat %W x %H mm.","Gruen (gestrichelt) = Sicherheitszone: Texte und Logos innerhalb halten.","Datei: PDF, 300 dpi, CMYK - Fragen? info@prismabel.com"]};
+function gabaritPDF(wmm,hmm){
+  const mm=v=>v*72/25.4, B=3, SZ=3;
+  const W=mm(wmm+2*B), H=mm(hmm+2*B);
+  const x0=mm(B),y0=mm(B),tw=mm(wmm),th=mm(hmm);
+  const sx=mm(B+SZ),sy=mm(B+SZ),sw=mm(wmm-2*SZ),sh=mm(hmm-2*SZ);
+  const f=n=>n.toFixed(2);
+  const lines=GLEG[lang].map(t=>t.replace("%W",wmm).replace("%H",hmm));
+  const fs=Math.max(5,Math.min(10,Math.min(W,H)/34));
+  let txt="";
+  let ty=sy+sh-fs*2;
+  const esc=t=>t.replace(/\\/g,"\\\\").replace(/\(/g,"\\(").replace(/\)/g,"\\)");
+  lines.forEach((t,i)=>{
+    if(ty<sy+fs)return;
+    txt+="BT /F1 "+f(i===0?fs*1.25:fs)+" Tf "+f(sx+fs)+" "+f(ty)+" Td ("+esc(t)+") Tj ET\n";
+    ty-=fs*(i===0?2.1:1.65);
+  });
+  const content="q\n1 0 0 RG 0.9 w [] 0 d 0.45 0.45 "+f(W-0.9)+" "+f(H-0.9)+" re S\n"
+    +"0 0 1 RG 0.7 w [5 3] 0 d "+f(x0)+" "+f(y0)+" "+f(tw)+" "+f(th)+" re S\n"
+    +"0 0.55 0.2 RG 0.6 w [2 2.5] 0 d "+f(sx)+" "+f(sy)+" "+f(sw)+" "+f(sh)+" re S\n"
+    +"[] 0 d 0 0 0 rg\n"+txt+"Q";
+  const objs=[
+    "<< /Type /Catalog /Pages 2 0 R >>",
+    "<< /Type /Pages /Kids [3 0 R] /Count 1 >>",
+    "<< /Type /Page /Parent 2 0 R /MediaBox [0 0 "+f(W)+" "+f(H)+"] /TrimBox ["+f(x0)+" "+f(y0)+" "+f(x0+tw)+" "+f(y0+th)+"] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>",
+    "<< /Length "+content.length+" >>\nstream\n"+content+"\nendstream",
+    "<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>"
+  ];
+  let pdf="%PDF-1.4\n";
+  const offs=[];
+  objs.forEach((o,i)=>{offs.push(pdf.length);pdf+=(i+1)+" 0 obj\n"+o+"\nendobj\n";});
+  const xref=pdf.length;
+  pdf+="xref\n0 "+(objs.length+1)+"\n0000000000 65535 f \n";
+  offs.forEach(o=>{pdf+=String(o).padStart(10,"0")+" 00000 n \n";});
+  pdf+="trailer\n<< /Size "+(objs.length+1)+" /Root 1 0 R >>\nstartxref\n"+xref+"\n%%EOF";
+  const bytes=new Uint8Array(pdf.length);
+  for(let i=0;i<pdf.length;i++)bytes[i]=pdf.charCodeAt(i)&0xff;
+  const NAMES={nl:"sjabloon",fr:"gabarit",en:"template",de:"vorlage"};
+  const a=document.createElement("a");
+  a.href=URL.createObjectURL(new Blob([bytes],{type:"application/pdf"}));
+  a.download="prismabel-"+NAMES[lang]+"-"+wmm+"x"+hmm+"mm.pdf";
+  a.click();
+  setTimeout(()=>URL.revokeObjectURL(a.href),5000);
+}
+
 /* spoed & levering: universele extra stappen voor elk product */
 const XGROUPS=[
  {label:{nl:"Levering",fr:"Livraison",en:"Delivery",de:"Lieferung"},
@@ -476,6 +545,7 @@ function sel0q(id){
   return parseInt((PRODUCTS[id].groups[P.qty].opts[0].nl||'').replace(/[^0-9]/g,''))||0;
 }
 function updateSummary(){
+  setTimeout(updateGabBtn,0);
   const p=PRODUCTS[curProduct];
   document.getElementById('m-sum').textContent=
     p.groups.map((g,gi)=>loc(g.label)+': '+loc(g.opts[curSel[gi]])).join(' · ');
@@ -500,6 +570,13 @@ function updateSummary(){
   const vat=document.createElement('span');vat.className='vat';vat.textContent=T[lang].pr_incl;
   box.appendChild(vat);
   box.classList.add('show');
+}
+function updateGabBtn(){
+  const b=document.getElementById('m-gab');
+  if(!b)return;
+  const d=curProduct?gabDims(curProduct,curSel):null;
+  if(d){b.style.display='block';b.textContent='📐 '+T[lang].gab_btn+' — '+d[0]+' × '+d[1]+' mm';b.dataset.w=d[0];b.dataset.h=d[1];}
+  else b.style.display='none';
 }
 /* ===== winkelmandje ===== */
 const CART_KEY='pb_cart';
@@ -706,6 +783,60 @@ function openLegal(k){
 }
 function closeLegal(){document.getElementById('legal-ov').classList.remove('open');document.body.style.overflow='';}
 
+/* ===== eigen producten (adminpaneel -> products.json / lokale preview) ===== */
+const CUSTOMP=[];
+function addServiceCard(p){
+  const grid=document.querySelector('.services .grid');
+  if(!grid||grid.querySelector('[data-product="'+p.id+'"]'))return;
+  const d=document.createElement('div');
+  d.className='card';d.dataset.product=p.id;d.setAttribute('role','button');d.tabIndex=0;
+  const img=document.createElement('div');img.className='simg simg-custom';img.textContent=(p.name.nl||'?').charAt(0).toUpperCase();
+  const h=document.createElement('h3');
+  const ds=document.createElement('p');
+  const fr=document.createElement('span');fr.className='from';fr.setAttribute('data-from',p.id);
+  const cfg=document.createElement('span');cfg.className='cfg';cfg.setAttribute('data-i18n','cfg');cfg.textContent=T[lang].cfg||'Samenstellen →';
+  d.appendChild(img);d.appendChild(h);d.appendChild(ds);d.appendChild(fr);d.appendChild(cfg);
+  const open=()=>openProduct(p.id);
+  d.addEventListener('click',open);
+  d.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();open();}});
+  grid.appendChild(d);
+  CUSTOMP.push({p,h,ds});
+}
+function refreshCustomCards(){
+  CUSTOMP.forEach(({p,h,ds})=>{
+    h.textContent=loc(PRODUCTS[p.id].name);
+    ds.textContent=(p.desc&&(p.desc[lang]||p.desc.nl))||'';
+  });
+}
+function addCustomProducts(data){
+  if(!data||!Array.isArray(data.products))return;
+  data.products.forEach(p=>{
+    try{
+      if(!p||!p.id||!/^[a-z0-9-]{2,30}$/.test(p.id)||PRODUCTS[p.id])return;
+      if(!p.name||!p.name.nl||!Array.isArray(p.groups)||!p.groups.length)return;
+      const prod={name:{nl:String(p.name.nl),fr:String(p.name.fr||p.name.nl)},
+        groups:p.groups.map(g=>({label:{nl:String(g.nl),fr:String(g.fr||g.nl)},
+          opts:(g.opts||[]).map(o=>({nl:String(o.nl),fr:String(o.fr||o.nl)}))}))};
+      if(prod.groups.some(g=>!g.opts.length))return;
+      if(p.name.en)XT.en[prod.name.nl]=String(p.name.en);
+      if(p.name.de)XT.de[prod.name.nl]=String(p.name.de);
+      prod.groups.push(XGROUPS[0],XGROUPS[1]);
+      PRODUCTS[p.id]=prod;
+      if(p.prices&&Array.isArray(p.prices.tiers)&&p.prices.tiers.length){
+        PRICES[p.id]={qty:0,ovMax:-1,tiers:p.prices.tiers.map(v=>v==null?null:Number(v)),mul:p.prices.mul||{}};
+      }
+      addServiceCard(p);
+    }catch(e){}
+  });
+  refreshCustomCards();
+  fillFrom();
+}
+try{
+  const d=JSON.parse(localStorage.getItem('pb_products')||'null');
+  if(d)addCustomProducts(d);
+}catch(e){}
+fetch('products.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(d=>{if(d)addCustomProducts(d);}).catch(()=>{});
+
 /* ===== taal ===== */
 let lang='nl';
 function setLang(l){
@@ -717,6 +848,7 @@ function setLang(l){
   document.querySelectorAll('[data-i18n-ph]').forEach(el=>{const k=el.getAttribute('data-i18n-ph');if(T[l][k])el.placeholder=T[l][k];});
   if(curProduct && document.getElementById('overlay').classList.contains('open'))renderModal();
   if(document.getElementById('cart-ov').classList.contains('open'))renderCart();
+  refreshCustomCards();
   fillFrom();
 }
 
@@ -833,6 +965,7 @@ function closeAcc(){document.getElementById('acc-ov').classList.remove('open');d
   $('m-close').addEventListener('click',closeProduct);
   $('cart-close').addEventListener('click',closeCart);
   $('m-cta').addEventListener('click',submitProduct);
+  if($('m-gab'))$('m-gab').addEventListener('click',()=>{const b=$('m-gab');gabaritPDF(+b.dataset.w,+b.dataset.h);});
   $('cart-quote').addEventListener('click',cartQuote);
   $('overlay').addEventListener('click',e=>{if(e.target===e.currentTarget)closeProduct();});
   $('cart-ov').addEventListener('click',e=>{if(e.target===e.currentTarget)closeCart();});

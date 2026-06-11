@@ -604,3 +604,8 @@ html[data-theme=dark] .f-flist{color:#e7ebf4}
 .acc-empty{padding:26px 6px;text-align:center;color:var(--grey)}
 html[data-theme=dark] .acc-item b{color:#e7ebf4}
 @media (prefers-color-scheme: dark){html:not([data-theme=light]) .acc-item b{color:#e7ebf4}}
+
+
+/* ===== eigen producten (admin) ===== */
+.simg-custom{display:grid;place-items:center;font-size:3rem;font-weight:900;color:#fff;background:linear-gradient(135deg,#ee6633,#bb3388)}
+#m-gab{display:none;width:100%;margin-bottom:10px}
