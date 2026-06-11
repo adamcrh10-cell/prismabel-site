@@ -283,31 +283,30 @@ const PRODUCTS = {
  cards:{
   name:{nl:"Visitekaartjes",fr:"Cartes de visite"},
   groups:[
-   {label:{nl:"Aantal",fr:"Tirage"},opts:[{nl:"50",fr:"50"},{nl:"100",fr:"100"},{nl:"250",fr:"250"},{nl:"500",fr:"500"},{nl:"1000",fr:"1000"},{nl:"2000",fr:"2000"},{nl:"2500",fr:"2500"}]},
-   {label:{nl:"Formaat",fr:"Format final"},opts:[{nl:"85 × 55 mm (standaard)",fr:"85 × 55 mm (standard)"},{nl:"90 × 50 mm",fr:"90 × 50 mm"},{nl:"Afgeronde hoeken (85 × 55 mm)",fr:"Coins arrondis (85 × 55 mm)"}]},
-   {label:{nl:"Aantal pagina's",fr:"Nombre de pages"},opts:[{nl:"2 pagina's (voor + achter) ⭐ TOP",fr:"2 pages (recto-verso) ⭐ TOP"},{nl:"1 pagina (enkel voorzijde)",fr:"1 page (recto seul)"},{nl:"4 pagina's (vouwkaartje)",fr:"4 pages (carte pliée)"}]},
-   {label:{nl:"Kleurendruk",fr:"Colorimétrie"},opts:[{nl:"Quadrichromie 4/4 ⭐ TOP",fr:"Quadrichromie 4/4 ⭐ TOP"},{nl:"Quadrichromie 4/0",fr:"Quadrichromie 4/0"},{nl:"Zwart 1/1",fr:"Noir 1/1"},{nl:"Zwart 1/0",fr:"Noir 1/0"}]},
-   {label:{nl:"Papier",fr:"Papier"},opts:[
-    {nl:"170 g/m² gestreken mat",fr:"170 g/m² couché mat"},
-    {nl:"170 g/m² gestreken glanzend",fr:"170 g/m² couché brillant"},
-    {nl:"250 g/m² gestreken mat",fr:"250 g/m² couché mat"},
-    {nl:"250 g/m² gestreken glanzend",fr:"250 g/m² couché brillant"},
+   {label:{nl:"Aantal",fr:"Tirage"},opts:[{nl:"50",fr:"50"},{nl:"100",fr:"100"},{nl:"250",fr:"250"},{nl:"500",fr:"500"},{nl:"1000",fr:"1000"},{nl:"2000",fr:"2000"},{nl:"2500",fr:"2500"},{nl:"5000",fr:"5000"}]},
+   {label:{nl:"Formaat & vorm",fr:"Format & forme"},opts:[{nl:"85 × 55 mm — rechte hoeken ⭐ TOP",fr:"85 × 55 mm — coins pointus ⭐ TOP"},{nl:"90 × 50 mm",fr:"90 × 50 mm"},{nl:"Afgeronde hoeken (85 × 55 mm)",fr:"Coins arrondis (85 × 55 mm)"}]},
+   {label:{nl:"Aantal pagina's",fr:"Nombre de pages"},opts:[{nl:"2 pagina's (voor + achter) ⭐ TOP",fr:"2 pages (recto + verso) ⭐ TOP"},{nl:"1 pagina (enkel voorzijde)",fr:"1 page (recto seul)"},{nl:"4 pagina's (vouwkaartje)",fr:"4 pages (carte pliée)"}]},
+   {label:{nl:"Kleurendruk",fr:"Colorimétrie"},opts:[{nl:"Quadrichromie 4/4 ⭐ TOP",fr:"Quadrichromie 4/4 ⭐ TOP"},{nl:"Zwart 1/1",fr:"Monochromie 1/1 (noir)"}]},
+   {label:{nl:"Papier",fr:"Matériau"},opts:[
+    {nl:"300 g/m² gestreken mat FSC® ⭐ TOP",fr:"300 g/m² couché mat FSC® ⭐ TOP"},
+    {nl:"300 g/m² gestreken glanzend FSC® ⭐ TOP",fr:"300 g/m² couché brillant FSC® ⭐ TOP"},
+    {nl:"250 g/m² gestreken glanzend FSC®",fr:"250 g/m² couché brillant FSC®"},
+    {nl:"250 g/m² gestreken mat FSC®",fr:"250 g/m² couché mat FSC®"},
     {nl:"250 g/m² natuurpapier FSC®",fr:"250 g/m² papier naturel FSC®"},
     {nl:"250 g/m² gerecycleerd FSC®",fr:"250 g/m² papier recyclé FSC®"},
     {nl:"280 g/m² postkaartkarton",fr:"280 g/m² carton carte postale"},
-    {nl:"300 g/m² gestreken mat FSC® ⭐ TOP",fr:"300 g/m² couché mat FSC® ⭐ TOP"},
-    {nl:"300 g/m² gestreken glanzend FSC® ⭐ TOP",fr:"300 g/m² couché brillant FSC® ⭐ TOP"},
     {nl:"300 g/m² offsetkarton",fr:"300 g/m² carton offset"},
     {nl:"300 g/m² natuurpapier",fr:"300 g/m² papier naturel"},
     {nl:"300 g/m² gerecycleerd",fr:"300 g/m² papier recyclé"},
     {nl:"300 g/m² chromokarton (2 zijden gestreken)",fr:"300 g/m² carton chromo (couché 2 faces)"},
     {nl:"350 g/m² postkaartkarton",fr:"350 g/m² carton carte postale"},
-    {nl:"400 g/m² gestreken glanzend FSC® ⭐ TOP",fr:"400 g/m² couché brillant FSC® ⭐ TOP"},
-    {nl:"400 g/m² gestreken mat FSC®",fr:"400 g/m² couché mat FSC®"}]},
+    {nl:"400 g/m² gestreken glanzend FSC® ⭐ TOP",fr:"400 g/m² couché brillant FSC® TOP"},
+    {nl:"400 g/m² gestreken mat FSC® ⭐ TOP",fr:"400 g/m² couché mat FSC® TOP"},
+    {nl:"450 g/m² chromokarton (2 zijden gestreken)",fr:"450 g/m² carton chromo (couché 2 faces)"}]},
    {label:{nl:"Snit",fr:"Coupe"},opts:[{nl:"Vlak (à plat)",fr:"À plat"},{nl:"Rilling (voor vouwkaartjes)",fr:"Rainage (cartes pliées)"}]},
-   {label:{nl:"Afwerking",fr:"Finition"},opts:[{nl:"Zonder (dispersievernis)",fr:"Sans (vernis dispersion)"},{nl:"Gelamineerd (pelliculage)",fr:"Pelliculage"},{nl:"UV-vernis",fr:"Vernis UV"}]},
+   {label:{nl:"Afwerking",fr:"Finition"},opts:[{nl:"Zonder",fr:"Sans finition"},{nl:"Dispersievernis",fr:"Vernis à dispersion"},{nl:"Gelamineerd (pelliculage)",fr:"Pelliculage"},{nl:"UV-vernis",fr:"Vernis UV"}]},
    {label:{nl:"Afwerkingseffect",fr:"Effet de finition"},opts:[{nl:"Mat",fr:"Mat"},{nl:"Glanzend",fr:"Brillant"},{nl:"Soft Touch",fr:"Soft Touch"}]},
-   {label:{nl:"Afwerkingszijde",fr:"Finition côté"},opts:[{nl:"Enkel voorzijde",fr:"Recto seul"},{nl:"Voor- en achterzijde",fr:"Recto et verso"}]}
+   {label:{nl:"Afwerkingszijde",fr:"Finition côté"},opts:[{nl:"Enkel voorzijde",fr:"Recto seul"},{nl:"Voor- en achterzijde",fr:"Recto/verso"}]}
   ]},
  flyers:{
   name:{nl:"Flyers & folders",fr:"Flyers & dépliants"},
@@ -372,7 +371,7 @@ const PRODUCTS = {
 
 /* ===== vertalingen configurator (nl -> en/de) ===== */
 const XT={
- en:{"Visitekaartjes":"Business cards","Snit":"Cutting","Vlak (à plat)":"Flat (uncut)","Rilling (voor vouwkaartjes)":"Creasing (for folded cards)","Afwerkingseffect":"Finish effect","Afwerkingszijde":"Finish side","Enkel voorzijde":"Front only","Voor- en achterzijde":"Front and back","Zonder (dispersievernis)":"None (dispersion varnish)","Gelamineerd (pelliculage)":"Laminated","UV-vernis":"UV varnish","Mat":"Matte","Glanzend":"Gloss","2 pagina's (voor + achter) ⭐ TOP":"2 pages (front + back) ⭐ TOP","1 pagina (enkel voorzijde)":"1 page (front only)","4 pagina's (vouwkaartje)":"4 pages (folded card)","Quadrichromie 4/4 ⭐ TOP":"Full colour 4/4 ⭐ TOP","Quadrichromie 4/0":"Full colour 4/0","Zwart 1/1":"Black 1/1","Zwart 1/0":"Black 1/0","Aantal":"Quantity","Geen":"None","1 perforatielijn":"1 perforation line","2 perforatielijnen":"2 perforation lines","Zonder":"None","Afwerking omslag":"Cover finish","Omslag gelamineerd mat":"Cover laminated matte","Omslag gelamineerd glanzend":"Cover laminated gloss","A6 (105 × 148 mm) ⭐ TOP":"A6 (105 × 148 mm) ⭐ TOP","Geen vouw (vlak)":"No fold (flat)","Enkelvouw (4 p.)":"Half fold (4 pp.)","Wikkelvouw (6 p.)":"Roll fold (6 pp.)","Zigzagvouw (6 p.)":"Z-fold (6 pp.)","Kruisvouw (8 p.)":"Cross fold (8 pp.)","Venstervouw open (6 p.)":"Gate fold open (6 pp.)","Venstervouw gesloten (8 p.)":"Gate fold closed (8 pp.)","Gecombineerde vouw (12 p.)":"Combination fold (12 pp.)","Lang formaat (105 × 210 mm)":"Long format (105 × 210 mm)","Vierkant 100 × 100 mm":"Square 100 × 100 mm","Vierkant 105 × 105 mm":"Square 105 × 105 mm","Vierkant 120 × 120 mm":"Square 120 × 120 mm","Vierkant 210 × 210 mm":"Square 210 × 210 mm","80 g/m² offsetpapier":"80 gsm offset paper","90 g/m² offsetpapier":"90 gsm offset paper","120 g/m² offsetpapier":"120 gsm offset paper","90 g/m² gestreken mat":"90 gsm coated matte","135 g/m² gestreken mat ⭐ TOP":"135 gsm coated matte ⭐ TOP","135 g/m² gestreken glanzend ⭐ TOP":"135 gsm coated gloss ⭐ TOP","170 g/m² gestreken glanzend":"170 gsm coated gloss","300 g/m² gestreken glanzend":"300 gsm coated gloss","400 g/m² gestreken mat":"400 gsm coated matte","160 g/m² natuurpapier FSC®":"160 gsm natural paper FSC®","250 g/m² natuurpapier":"250 gsm natural paper","170 g/m² gerecycleerd FSC®":"170 gsm recycled FSC®","300 g/m² chromokarton":"300 gsm chromo board","A4 (210 × 297 mm) ⭐ TOP":"A4 (210 × 297 mm) ⭐ TOP","Geniet ⭐ TOP":"Stapled ⭐ TOP","Gelijmd (dos carré)":"Perfect bound","Wire-o spiraal":"Wire-o spiral","Papier binnenwerk":"Inner paper","135 g/m² gestreken ⭐ TOP":"135 gsm coated ⭐ TOP","90 g/m² gestreken":"90 gsm coated","170 g/m² gestreken":"170 gsm coated","A1 (594 × 841 mm) ⭐ TOP":"A1 (594 × 841 mm) ⭐ TOP","135 g/m² affichepapier gestreken ⭐ TOP":"135 gsm coated poster paper ⭐ TOP","115 g/m² blueback":"115 gsm blueback","Weerbestendig (outdoor)":"Weatherproof (outdoor)","Fluorescerend papier":"Fluorescent paper","170 g/m² gestreken mat":"170 gsm coated matte","170 g/m² gestreken glanzend":"170 gsm coated gloss","250 g/m² gestreken mat":"250 gsm coated matte","250 g/m² gestreken glanzend":"250 gsm coated gloss","250 g/m² natuurpapier FSC®":"250 gsm natural paper FSC®","250 g/m² gerecycleerd FSC®":"250 gsm recycled FSC®","280 g/m² postkaartkarton":"280 gsm postcard board","300 g/m² gestreken mat FSC® ⭐ TOP":"300 gsm coated matte FSC® ⭐ TOP","300 g/m² gestreken glanzend FSC® ⭐ TOP":"300 gsm coated gloss FSC® ⭐ TOP","300 g/m² offsetkarton":"300 gsm offset board","300 g/m² natuurpapier":"300 gsm natural paper","300 g/m² gerecycleerd":"300 gsm recycled","300 g/m² chromokarton (2 zijden gestreken)":"300 gsm chromo board (coated 2 sides)","350 g/m² postkaartkarton":"350 gsm postcard board","400 g/m² gestreken glanzend FSC® ⭐ TOP":"400 gsm coated gloss FSC® ⭐ TOP","400 g/m² gestreken mat FSC®":"400 gsm coated matte FSC®","UV-vernis glanzend":"UV varnish gloss","Kleurendruk":"Colour printing","Quadri enkelzijdig (4/0)":"Full colour single-sided (4/0)","Quadri dubbelzijdig (4/4)":"Full colour double-sided (4/4)","Zwart enkelzijdig (1/0)":"Black single-sided (1/0)","Zwart dubbelzijdig (1/1)":"Black double-sided (1/1)","Flyers & folders":"Flyers & leaflets","Brochures & boekjes":"Brochures & booklets","Posters & groot formaat":"Posters & large format","Stickers & etiketten":"Stickers & labels","Textieldruk":"Textile printing","Grafisch ontwerp":"Graphic design","Kopie & documenten":"Copies & documents",
+ en:{"Aantal":"Quantity","Formaat & vorm":"Size & shape","85 × 55 mm — rechte hoeken ⭐ TOP":"85 × 55 mm — square corners ⭐ TOP","90 × 50 mm":"90 × 50 mm","Afgeronde hoeken (85 × 55 mm)":"Rounded corners (85 × 55 mm)","2 pagina's (voor + achter) ⭐ TOP":"2 pages (front + back) ⭐ TOP","1 pagina (enkel voorzijde)":"1 page (front only)","4 pagina's (vouwkaartje)":"4 pages (folded card)","Quadrichromie 4/4 ⭐ TOP":"Full colour 4/4 ⭐ TOP","Zwart 1/1":"Black 1/1","250 g/m² gestreken glanzend FSC®":"250 gsm coated gloss FSC®","250 g/m² gestreken mat FSC®":"250 gsm coated matte FSC®","450 g/m² chromokarton (2 zijden gestreken)":"450 gsm chromo board (coated 2 sides)","Zonder":"None","Dispersievernis":"Dispersion varnish","Enkel voorzijde":"Front only","Voor- en achterzijde":"Front and back","Visitekaartjes":"Business cards","Snit":"Cutting","Vlak (à plat)":"Flat (uncut)","Rilling (voor vouwkaartjes)":"Creasing (for folded cards)","Afwerkingseffect":"Finish effect","Afwerkingszijde":"Finish side","Enkel voorzijde":"Front only","Voor- en achterzijde":"Front and back","Zonder (dispersievernis)":"None (dispersion varnish)","Gelamineerd (pelliculage)":"Laminated","UV-vernis":"UV varnish","Mat":"Matte","Glanzend":"Gloss","2 pagina's (voor + achter) ⭐ TOP":"2 pages (front + back) ⭐ TOP","1 pagina (enkel voorzijde)":"1 page (front only)","4 pagina's (vouwkaartje)":"4 pages (folded card)","Quadrichromie 4/4 ⭐ TOP":"Full colour 4/4 ⭐ TOP","Quadrichromie 4/0":"Full colour 4/0","Zwart 1/1":"Black 1/1","Zwart 1/0":"Black 1/0","Aantal":"Quantity","Geen":"None","1 perforatielijn":"1 perforation line","2 perforatielijnen":"2 perforation lines","Zonder":"None","Afwerking omslag":"Cover finish","Omslag gelamineerd mat":"Cover laminated matte","Omslag gelamineerd glanzend":"Cover laminated gloss","A6 (105 × 148 mm) ⭐ TOP":"A6 (105 × 148 mm) ⭐ TOP","Geen vouw (vlak)":"No fold (flat)","Enkelvouw (4 p.)":"Half fold (4 pp.)","Wikkelvouw (6 p.)":"Roll fold (6 pp.)","Zigzagvouw (6 p.)":"Z-fold (6 pp.)","Kruisvouw (8 p.)":"Cross fold (8 pp.)","Venstervouw open (6 p.)":"Gate fold open (6 pp.)","Venstervouw gesloten (8 p.)":"Gate fold closed (8 pp.)","Gecombineerde vouw (12 p.)":"Combination fold (12 pp.)","Lang formaat (105 × 210 mm)":"Long format (105 × 210 mm)","Vierkant 100 × 100 mm":"Square 100 × 100 mm","Vierkant 105 × 105 mm":"Square 105 × 105 mm","Vierkant 120 × 120 mm":"Square 120 × 120 mm","Vierkant 210 × 210 mm":"Square 210 × 210 mm","80 g/m² offsetpapier":"80 gsm offset paper","90 g/m² offsetpapier":"90 gsm offset paper","120 g/m² offsetpapier":"120 gsm offset paper","90 g/m² gestreken mat":"90 gsm coated matte","135 g/m² gestreken mat ⭐ TOP":"135 gsm coated matte ⭐ TOP","135 g/m² gestreken glanzend ⭐ TOP":"135 gsm coated gloss ⭐ TOP","170 g/m² gestreken glanzend":"170 gsm coated gloss","300 g/m² gestreken glanzend":"300 gsm coated gloss","400 g/m² gestreken mat":"400 gsm coated matte","160 g/m² natuurpapier FSC®":"160 gsm natural paper FSC®","250 g/m² natuurpapier":"250 gsm natural paper","170 g/m² gerecycleerd FSC®":"170 gsm recycled FSC®","300 g/m² chromokarton":"300 gsm chromo board","A4 (210 × 297 mm) ⭐ TOP":"A4 (210 × 297 mm) ⭐ TOP","Geniet ⭐ TOP":"Stapled ⭐ TOP","Gelijmd (dos carré)":"Perfect bound","Wire-o spiraal":"Wire-o spiral","Papier binnenwerk":"Inner paper","135 g/m² gestreken ⭐ TOP":"135 gsm coated ⭐ TOP","90 g/m² gestreken":"90 gsm coated","170 g/m² gestreken":"170 gsm coated","A1 (594 × 841 mm) ⭐ TOP":"A1 (594 × 841 mm) ⭐ TOP","135 g/m² affichepapier gestreken ⭐ TOP":"135 gsm coated poster paper ⭐ TOP","115 g/m² blueback":"115 gsm blueback","Weerbestendig (outdoor)":"Weatherproof (outdoor)","Fluorescerend papier":"Fluorescent paper","170 g/m² gestreken mat":"170 gsm coated matte","170 g/m² gestreken glanzend":"170 gsm coated gloss","250 g/m² gestreken mat":"250 gsm coated matte","250 g/m² gestreken glanzend":"250 gsm coated gloss","250 g/m² natuurpapier FSC®":"250 gsm natural paper FSC®","250 g/m² gerecycleerd FSC®":"250 gsm recycled FSC®","280 g/m² postkaartkarton":"280 gsm postcard board","300 g/m² gestreken mat FSC® ⭐ TOP":"300 gsm coated matte FSC® ⭐ TOP","300 g/m² gestreken glanzend FSC® ⭐ TOP":"300 gsm coated gloss FSC® ⭐ TOP","300 g/m² offsetkarton":"300 gsm offset board","300 g/m² natuurpapier":"300 gsm natural paper","300 g/m² gerecycleerd":"300 gsm recycled","300 g/m² chromokarton (2 zijden gestreken)":"300 gsm chromo board (coated 2 sides)","350 g/m² postkaartkarton":"350 gsm postcard board","400 g/m² gestreken glanzend FSC® ⭐ TOP":"400 gsm coated gloss FSC® ⭐ TOP","400 g/m² gestreken mat FSC®":"400 gsm coated matte FSC®","UV-vernis glanzend":"UV varnish gloss","Kleurendruk":"Colour printing","Quadri enkelzijdig (4/0)":"Full colour single-sided (4/0)","Quadri dubbelzijdig (4/4)":"Full colour double-sided (4/4)","Zwart enkelzijdig (1/0)":"Black single-sided (1/0)","Zwart dubbelzijdig (1/1)":"Black double-sided (1/1)","Flyers & folders":"Flyers & leaflets","Brochures & boekjes":"Brochures & booklets","Posters & groot formaat":"Posters & large format","Stickers & etiketten":"Stickers & labels","Textieldruk":"Textile printing","Grafisch ontwerp":"Graphic design","Kopie & documenten":"Copies & documents",
  "Formaat":"Size","Papier":"Paper","Afwerking":"Finish","Bedrukking":"Printing","Aantal":"Quantity","Vouw":"Fold","Binding":"Binding","Aantal pagina's":"Number of pages","Materiaal":"Material","Vorm":"Shape","Product":"Product","Techniek":"Technique","Positie":"Position","Type project":"Project type","Heeft u al een huisstijl?":"Do you already have a visual identity?","Dienst":"Service","Aantal (ongeveer)":"Quantity (approx.)",
  "85 × 55 mm (standaard)":"85 × 55 mm (standard)","Afgeronde hoeken (85 × 55 mm)":"Rounded corners (85 × 55 mm)","300g standaard":"300g standard","400g luxe":"400g luxury","Gerecycleerd":"Recycled","Mat gelamineerd":"Matte laminated","Glanzend gelamineerd":"Gloss laminated","Soft Touch gelamineerd":"Soft Touch laminated","Zonder laminaat":"No lamination","Enkelzijdig":"Single-sided","Dubbelzijdig":"Double-sided",
  "Geen vouw (flyer)":"No fold (flyer)","Enkelvouw":"Half fold","Wikkelvouw":"Roll fold","Zigzagvouw":"Z-fold","135g glossy":"135g gloss","170g glossy":"170g gloss","250g stevig":"250g sturdy",
@@ -381,7 +380,7 @@ const XT={
  "Werkkledij":"Workwear","Digitale druk (DTG)":"Digital print (DTG)","Flex / flock":"Flex / flock","Borduring":"Embroidery","Voorkant":"Front","Voor + achter":"Front + back","Borst + mouw":"Chest + sleeve",
  "Volledige huisstijl":"Full visual identity","Flyer / poster ontwerp":"Flyer / poster design","Iets anders":"Something else","Ja":"Yes","Nee, alles mag nieuw":"No, start from scratch",
  "Zwart-wit kopies":"Black & white copies","Kleurenkopies":"Colour copies","Scannen":"Scanning","Inbinden":"Binding","Lamineren":"Laminating"},
- de:{"Visitekaartjes":"Visitenkarten","Snit":"Schnitt","Vlak (à plat)":"Flach (plano)","Rilling (voor vouwkaartjes)":"Rillung (für Klappkarten)","Afwerkingseffect":"Veredelungseffekt","Afwerkingszijde":"Veredelungsseite","Enkel voorzijde":"Nur Vorderseite","Voor- en achterzijde":"Vorder- und Rückseite","Zonder (dispersievernis)":"Ohne (Dispersionslack)","Gelamineerd (pelliculage)":"Laminiert","UV-vernis":"UV-Lack","Mat":"Matt","Glanzend":"Glänzend","2 pagina's (voor + achter) ⭐ TOP":"2 Seiten (vorne + hinten) ⭐ TOP","1 pagina (enkel voorzijde)":"1 Seite (nur vorne)","4 pagina's (vouwkaartje)":"4 Seiten (Klappkarte)","Quadrichromie 4/4 ⭐ TOP":"Vierfarbig 4/4 ⭐ TOP","Quadrichromie 4/0":"Vierfarbig 4/0","Zwart 1/1":"Schwarz 1/1","Zwart 1/0":"Schwarz 1/0","Aantal":"Menge","Geen":"Keine","1 perforatielijn":"1 Perforationslinie","2 perforatielijnen":"2 Perforationslinien","Zonder":"Ohne","Afwerking omslag":"Umschlagveredelung","Omslag gelamineerd mat":"Umschlag matt laminiert","Omslag gelamineerd glanzend":"Umschlag glänzend laminiert","A6 (105 × 148 mm) ⭐ TOP":"A6 (105 × 148 mm) ⭐ TOP","Geen vouw (vlak)":"Ohne Falz (plano)","Enkelvouw (4 p.)":"Einbruchfalz (4 S.)","Wikkelvouw (6 p.)":"Wickelfalz (6 S.)","Zigzagvouw (6 p.)":"Zickzackfalz (6 S.)","Kruisvouw (8 p.)":"Kreuzfalz (8 S.)","Venstervouw open (6 p.)":"Fensterfalz offen (6 S.)","Venstervouw gesloten (8 p.)":"Fensterfalz geschlossen (8 S.)","Gecombineerde vouw (12 p.)":"Kombifalz (12 S.)","Lang formaat (105 × 210 mm)":"Langformat (105 × 210 mm)","Vierkant 100 × 100 mm":"Quadratisch 100 × 100 mm","Vierkant 105 × 105 mm":"Quadratisch 105 × 105 mm","Vierkant 120 × 120 mm":"Quadratisch 120 × 120 mm","Vierkant 210 × 210 mm":"Quadratisch 210 × 210 mm","80 g/m² offsetpapier":"80 g/m² Offsetpapier","90 g/m² offsetpapier":"90 g/m² Offsetpapier","120 g/m² offsetpapier":"120 g/m² Offsetpapier","90 g/m² gestreken mat":"90 g/m² Bilderdruck matt","135 g/m² gestreken mat ⭐ TOP":"135 g/m² Bilderdruck matt ⭐ TOP","135 g/m² gestreken glanzend ⭐ TOP":"135 g/m² Bilderdruck glänzend ⭐ TOP","170 g/m² gestreken glanzend":"170 g/m² Bilderdruck glänzend","300 g/m² gestreken glanzend":"300 g/m² Bilderdruck glänzend","400 g/m² gestreken mat":"400 g/m² Bilderdruck matt","160 g/m² natuurpapier FSC®":"160 g/m² Naturpapier FSC®","250 g/m² natuurpapier":"250 g/m² Naturpapier","170 g/m² gerecycleerd FSC®":"170 g/m² Recycling FSC®","300 g/m² chromokarton":"300 g/m² Chromokarton","A4 (210 × 297 mm) ⭐ TOP":"A4 (210 × 297 mm) ⭐ TOP","Geniet ⭐ TOP":"Geheftet ⭐ TOP","Gelijmd (dos carré)":"Klebebindung","Wire-o spiraal":"Wire-O-Spirale","Papier binnenwerk":"Innenpapier","135 g/m² gestreken ⭐ TOP":"135 g/m² Bilderdruck ⭐ TOP","90 g/m² gestreken":"90 g/m² Bilderdruck","170 g/m² gestreken":"170 g/m² Bilderdruck","A1 (594 × 841 mm) ⭐ TOP":"A1 (594 × 841 mm) ⭐ TOP","135 g/m² affichepapier gestreken ⭐ TOP":"135 g/m² Plakatpapier gestrichen ⭐ TOP","115 g/m² blueback":"115 g/m² Blueback","Weerbestendig (outdoor)":"Wetterfest (Outdoor)","Fluorescerend papier":"Fluoreszierendes Papier","170 g/m² gestreken mat":"170 g/m² Bilderdruck matt","170 g/m² gestreken glanzend":"170 g/m² Bilderdruck glänzend","250 g/m² gestreken mat":"250 g/m² Bilderdruck matt","250 g/m² gestreken glanzend":"250 g/m² Bilderdruck glänzend","250 g/m² natuurpapier FSC®":"250 g/m² Naturpapier FSC®","250 g/m² gerecycleerd FSC®":"250 g/m² Recycling FSC®","280 g/m² postkaartkarton":"280 g/m² Postkartenkarton","300 g/m² gestreken mat FSC® ⭐ TOP":"300 g/m² Bilderdruck matt FSC® ⭐ TOP","300 g/m² gestreken glanzend FSC® ⭐ TOP":"300 g/m² Bilderdruck glänzend FSC® ⭐ TOP","300 g/m² offsetkarton":"300 g/m² Offsetkarton","300 g/m² natuurpapier":"300 g/m² Naturpapier","300 g/m² gerecycleerd":"300 g/m² Recycling","300 g/m² chromokarton (2 zijden gestreken)":"300 g/m² Chromokarton (beidseitig gestrichen)","350 g/m² postkaartkarton":"350 g/m² Postkartenkarton","400 g/m² gestreken glanzend FSC® ⭐ TOP":"400 g/m² Bilderdruck glänzend FSC® ⭐ TOP","400 g/m² gestreken mat FSC®":"400 g/m² Bilderdruck matt FSC®","UV-vernis glanzend":"UV-Lack glänzend","Kleurendruk":"Farbdruck","Quadri enkelzijdig (4/0)":"Vollfarbe einseitig (4/0)","Quadri dubbelzijdig (4/4)":"Vollfarbe beidseitig (4/4)","Zwart enkelzijdig (1/0)":"Schwarz einseitig (1/0)","Zwart dubbelzijdig (1/1)":"Schwarz beidseitig (1/1)","Flyers & folders":"Flyer & Faltblätter","Brochures & boekjes":"Broschüren & Hefte","Posters & groot formaat":"Poster & Großformat","Stickers & etiketten":"Sticker & Etiketten","Textieldruk":"Textildruck","Grafisch ontwerp":"Grafikdesign","Kopie & documenten":"Kopien & Dokumente",
+ de:{"Formaat & vorm":"Format & Form","85 × 55 mm — rechte hoeken ⭐ TOP":"85 × 55 mm — gerade Ecken ⭐ TOP","90 × 50 mm":"90 × 50 mm","Afgeronde hoeken (85 × 55 mm)":"Abgerundete Ecken (85 × 55 mm)","Quadrichromie 4/4 ⭐ TOP":"Vierfarbig 4/4 ⭐ TOP","Zwart 1/1":"Schwarz 1/1","250 g/m² gestreken glanzend FSC®":"250 g/m² Bilderdruck glänzend FSC®","250 g/m² gestreken mat FSC®":"250 g/m² Bilderdruck matt FSC®","450 g/m² chromokarton (2 zijden gestreken)":"450 g/m² Chromokarton (beidseitig gestrichen)","Zonder":"Ohne","Dispersievernis":"Dispersionslack","Visitekaartjes":"Visitenkarten","Snit":"Schnitt","Vlak (à plat)":"Flach (plano)","Rilling (voor vouwkaartjes)":"Rillung (für Klappkarten)","Afwerkingseffect":"Veredelungseffekt","Afwerkingszijde":"Veredelungsseite","Enkel voorzijde":"Nur Vorderseite","Voor- en achterzijde":"Vorder- und Rückseite","Zonder (dispersievernis)":"Ohne (Dispersionslack)","Gelamineerd (pelliculage)":"Laminiert","UV-vernis":"UV-Lack","Mat":"Matt","Glanzend":"Glänzend","2 pagina's (voor + achter) ⭐ TOP":"2 Seiten (vorne + hinten) ⭐ TOP","1 pagina (enkel voorzijde)":"1 Seite (nur vorne)","4 pagina's (vouwkaartje)":"4 Seiten (Klappkarte)","Quadrichromie 4/4 ⭐ TOP":"Vierfarbig 4/4 ⭐ TOP","Quadrichromie 4/0":"Vierfarbig 4/0","Zwart 1/1":"Schwarz 1/1","Zwart 1/0":"Schwarz 1/0","Aantal":"Menge","Geen":"Keine","1 perforatielijn":"1 Perforationslinie","2 perforatielijnen":"2 Perforationslinien","Zonder":"Ohne","Afwerking omslag":"Umschlagveredelung","Omslag gelamineerd mat":"Umschlag matt laminiert","Omslag gelamineerd glanzend":"Umschlag glänzend laminiert","A6 (105 × 148 mm) ⭐ TOP":"A6 (105 × 148 mm) ⭐ TOP","Geen vouw (vlak)":"Ohne Falz (plano)","Enkelvouw (4 p.)":"Einbruchfalz (4 S.)","Wikkelvouw (6 p.)":"Wickelfalz (6 S.)","Zigzagvouw (6 p.)":"Zickzackfalz (6 S.)","Kruisvouw (8 p.)":"Kreuzfalz (8 S.)","Venstervouw open (6 p.)":"Fensterfalz offen (6 S.)","Venstervouw gesloten (8 p.)":"Fensterfalz geschlossen (8 S.)","Gecombineerde vouw (12 p.)":"Kombifalz (12 S.)","Lang formaat (105 × 210 mm)":"Langformat (105 × 210 mm)","Vierkant 100 × 100 mm":"Quadratisch 100 × 100 mm","Vierkant 105 × 105 mm":"Quadratisch 105 × 105 mm","Vierkant 120 × 120 mm":"Quadratisch 120 × 120 mm","Vierkant 210 × 210 mm":"Quadratisch 210 × 210 mm","80 g/m² offsetpapier":"80 g/m² Offsetpapier","90 g/m² offsetpapier":"90 g/m² Offsetpapier","120 g/m² offsetpapier":"120 g/m² Offsetpapier","90 g/m² gestreken mat":"90 g/m² Bilderdruck matt","135 g/m² gestreken mat ⭐ TOP":"135 g/m² Bilderdruck matt ⭐ TOP","135 g/m² gestreken glanzend ⭐ TOP":"135 g/m² Bilderdruck glänzend ⭐ TOP","170 g/m² gestreken glanzend":"170 g/m² Bilderdruck glänzend","300 g/m² gestreken glanzend":"300 g/m² Bilderdruck glänzend","400 g/m² gestreken mat":"400 g/m² Bilderdruck matt","160 g/m² natuurpapier FSC®":"160 g/m² Naturpapier FSC®","250 g/m² natuurpapier":"250 g/m² Naturpapier","170 g/m² gerecycleerd FSC®":"170 g/m² Recycling FSC®","300 g/m² chromokarton":"300 g/m² Chromokarton","A4 (210 × 297 mm) ⭐ TOP":"A4 (210 × 297 mm) ⭐ TOP","Geniet ⭐ TOP":"Geheftet ⭐ TOP","Gelijmd (dos carré)":"Klebebindung","Wire-o spiraal":"Wire-O-Spirale","Papier binnenwerk":"Innenpapier","135 g/m² gestreken ⭐ TOP":"135 g/m² Bilderdruck ⭐ TOP","90 g/m² gestreken":"90 g/m² Bilderdruck","170 g/m² gestreken":"170 g/m² Bilderdruck","A1 (594 × 841 mm) ⭐ TOP":"A1 (594 × 841 mm) ⭐ TOP","135 g/m² affichepapier gestreken ⭐ TOP":"135 g/m² Plakatpapier gestrichen ⭐ TOP","115 g/m² blueback":"115 g/m² Blueback","Weerbestendig (outdoor)":"Wetterfest (Outdoor)","Fluorescerend papier":"Fluoreszierendes Papier","170 g/m² gestreken mat":"170 g/m² Bilderdruck matt","170 g/m² gestreken glanzend":"170 g/m² Bilderdruck glänzend","250 g/m² gestreken mat":"250 g/m² Bilderdruck matt","250 g/m² gestreken glanzend":"250 g/m² Bilderdruck glänzend","250 g/m² natuurpapier FSC®":"250 g/m² Naturpapier FSC®","250 g/m² gerecycleerd FSC®":"250 g/m² Recycling FSC®","280 g/m² postkaartkarton":"280 g/m² Postkartenkarton","300 g/m² gestreken mat FSC® ⭐ TOP":"300 g/m² Bilderdruck matt FSC® ⭐ TOP","300 g/m² gestreken glanzend FSC® ⭐ TOP":"300 g/m² Bilderdruck glänzend FSC® ⭐ TOP","300 g/m² offsetkarton":"300 g/m² Offsetkarton","300 g/m² natuurpapier":"300 g/m² Naturpapier","300 g/m² gerecycleerd":"300 g/m² Recycling","300 g/m² chromokarton (2 zijden gestreken)":"300 g/m² Chromokarton (beidseitig gestrichen)","350 g/m² postkaartkarton":"350 g/m² Postkartenkarton","400 g/m² gestreken glanzend FSC® ⭐ TOP":"400 g/m² Bilderdruck glänzend FSC® ⭐ TOP","400 g/m² gestreken mat FSC®":"400 g/m² Bilderdruck matt FSC®","UV-vernis glanzend":"UV-Lack glänzend","Kleurendruk":"Farbdruck","Quadri enkelzijdig (4/0)":"Vollfarbe einseitig (4/0)","Quadri dubbelzijdig (4/4)":"Vollfarbe beidseitig (4/4)","Zwart enkelzijdig (1/0)":"Schwarz einseitig (1/0)","Zwart dubbelzijdig (1/1)":"Schwarz beidseitig (1/1)","Flyers & folders":"Flyer & Faltblätter","Brochures & boekjes":"Broschüren & Hefte","Posters & groot formaat":"Poster & Großformat","Stickers & etiketten":"Sticker & Etiketten","Textieldruk":"Textildruck","Grafisch ontwerp":"Grafikdesign","Kopie & documenten":"Kopien & Dokumente",
  "Formaat":"Format","Papier":"Papier","Afwerking":"Veredelung","Bedrukking":"Druck","Aantal":"Menge","Vouw":"Falz","Binding":"Bindung","Aantal pagina's":"Seitenzahl","Materiaal":"Material","Vorm":"Form","Product":"Produkt","Techniek":"Technik","Positie":"Position","Type project":"Projekttyp","Heeft u al een huisstijl?":"Haben Sie bereits ein Corporate Design?","Dienst":"Leistung","Aantal (ongeveer)":"Menge (ca.)",
  "85 × 55 mm (standaard)":"85 × 55 mm (Standard)","Afgeronde hoeken (85 × 55 mm)":"Abgerundete Ecken (85 × 55 mm)","300g standaard":"300g Standard","400g luxe":"400g Luxus","Gerecycleerd":"Recycelt","Mat gelamineerd":"Matt laminiert","Glanzend gelamineerd":"Glänzend laminiert","Soft Touch gelamineerd":"Soft-Touch laminiert","Zonder laminaat":"Ohne Laminat","Enkelzijdig":"Einseitig","Dubbelzijdig":"Beidseitig",
  "Geen vouw (flyer)":"Ohne Falz (Flyer)","Enkelvouw":"Einbruchfalz","Wikkelvouw":"Wickelfalz","Zigzagvouw":"Zickzackfalz","135g glossy":"135g glänzend","170g glossy":"170g glänzend","250g stevig":"250g stabil",
@@ -476,7 +475,7 @@ function openProduct(id){
   curProduct=id;
   const p=PRODUCTS[id];
   curSel=p.groups.map(()=>0);
-  if(id==='cards'){curSel[0]=3;curSel[4]=7;} /* 500st (TOP-prijs), 300g mat TOP; rest = Saxoprint-default idx0 */
+  if(id==='cards'){curSel[0]=3;} /* 500st; rest = Saxoprint-default (300g mat TOP, 2p, 4/4) */
   if(id==='flyers'){curSel[0]=5;curSel[2]=1;curSel[3]=4;} /* 1000st, 4/4, 135g mat TOP */
   if(id==='brochures'){curSel[0]=1;curSel[2]=2;} /* 100st, 16 p. */
   if(id==='posters'){curSel[0]=2;curSel[1]=2;} /* 10st, A1 TOP */
@@ -595,20 +594,32 @@ try{
 const SPEED_MUL=[1,1.30]; /* Overnight-toeslag (est) */
 const SX=h=>Math.ceil(h*1.30*1.21*2)/2; /* HT -> verkoop incl btw: Saxoprint x 1,30 marge x 1,21 btw, afgerond op 0,50 */
 const PRICES={
- cards:{qty:0,ovMax:6,
-  /* ECHT (HT): 100=27,43 250=27,54 500=16,43 1000=27,71 2000=37,46 2500=38,14; 50=est */
-  tiers:[SX(27.43),SX(27.43),SX(27.54),SX(16.43),SX(27.71),SX(37.46),SX(38.14)],
-  mul:{
-   1:[1,1,1.15],
-   2:[1,0.93,1.60],
-   3:[1,0.96,0.85,0.80],
-   4:[0.95,0.95,0.98,0.98,0.81,0.85,1.05,1,1,1,0.95,0.90,1.10,1.12,1.18,1.18],
-   5:[1,1.05],
-   6:[1,1.375,1.65],
-   7:[1,1,1.09],
-   8:[1,1.12]
-  }},
-  /* idx2 pagina's | idx3 colorimetrie | idx4 papier (natuur x0,81 ECHT) | idx5 snit | idx6 finition (lam x1,375 / UV x1,65 ECHT) | idx7 effect | idx8 zijde */
+ cards:{qty:0,matrix:{
+  /* HT-matrix per papier × oplage [50,100,250,500,1000,2000,2500,5000] — geoogst fr.saxoprint.be 12/06/2026, zie SAXOPRINT-DATA-KAARTJES.md */
+  papers:[
+   [27.12,27.43,27.54,16.43,27.71,37.46,38.14,43.42],
+   [27.12,27.43,27.54,16.43,27.71,37.46,38.14,43.42],
+   [26.21,26.50,26.81,27.77,28.31,34.99,37.13,43.02],
+   [26.21,26.50,26.81,27.77,28.31,34.99,37.13,43.02],
+   [40.63,41.08,41.56,43.04,43.88,54.23,57.55,66.68],
+   [29.15,29.79,31.09,33.74,37.52,51.25,56.80,79.23],
+   [35.48,35.65,36.12,36.90,42.32,46.14,47.23,57.96],
+   [32.54,32.92,33.05,19.72,33.25,44.95,45.77,52.10],
+   [63.39,64.55,66.33,45.81,74.43,105.04,111.63,148.45],
+   [34.82,35.59,36.83,24.56,42.58,62.33,66.88,92.02],
+   [35.77,36.22,37.56,39.77,48.06,57.63,61.59,86.68],
+   [48.06,48.33,49.08,50.39,58.24,63.92,66.76,80.80],
+   [33.31,33.70,35.70,37.20,42.32,46.73,48.87,63.06],
+   [33.31,33.70,35.70,37.20,42.32,46.73,48.87,63.06],
+   [null,69.62,71.01,73.43,87.94,98.43,103.68,129.62]],
+  p1:[24.62,24.69,24.98,26.47,28.43,33.79,35.36,42.97],
+  p4:[32.36,32.41,34.05,39.72,47.23,64.12,74.47,117.66],
+  fmt:[1,1,1.2818],
+  col:[1,0.9701],
+  disp:1.2869,
+  pell:[[1.6088,1.7697],[1.3749,1.5125],[1.7874,1.9661]],
+  uv:[1.65,1.8149],
+  ovMax:6}},
  flyers:{qty:0,ovMax:5,
   /* ECHT (HT) A6 135g 4/4: 100=17,41 250=17,63 500=17,75 1000=19,04 2500=32,80 */
   tiers:[SX(17.3),SX(17.35),SX(17.41),SX(17.63),SX(17.75),SX(19.04),SX(32.80),SX(57),SX(105)],
@@ -654,8 +665,34 @@ function qtyNum(id,sel){
   const g=PRODUCTS[id].groups[P.qty];
   return parseInt((g.opts[sel[P.qty]].nl||'').replace(/[^0-9]/g,''))||1;
 }
+function matrixPrice(id,sel,opts){
+  const M=PRICES[id].matrix;
+  const n=PRODUCTS[id].groups.length, speedI=n-1;
+  const t=sel[0];
+  const base0=M.papers[0][t];
+  const pap=M.papers[sel[4]][t];
+  if(base0==null||pap==null)return null;
+  let ht;
+  if(sel[2]===0)ht=pap;
+  else{
+    const c=(sel[2]===1?M.p1:M.p4)[t];
+    if(c==null)return null;
+    ht=c*(pap/base0);
+  }
+  ht*=M.fmt[sel[1]]||1;
+  ht*=M.col[sel[3]]||1;
+  const fin=sel[6];
+  if(fin===1)ht*=M.disp;
+  else if(fin===2)ht*=M.pell[sel[7]][sel[8]];
+  else if(fin===3)ht*=M.uv[sel[8]];
+  if(sel[speedI]===1&&t>M.ovMax)return null;
+  let tot=ht*1.30*1.21;
+  if(!(opts&&opts.noExtras))tot*=(sel[speedI]===1?(SPEED_MUL[1]||1):1);
+  return Math.ceil(tot*2)/2;
+}
 function priceFor(id,sel,opts){
   const P=PRICES[id];if(!P||!Array.isArray(sel))return null;
+  if(P.matrix)return matrixPrice(id,sel,opts);
   const n=PRODUCTS[id].groups.length, speedI=n-1;
   let total=null,overridden=false;
   if(P.override){
@@ -738,6 +775,13 @@ updateBadge();
 function minFrom(id){
   /* laagste haalbare prijs over alle combinaties (zelfde wiskunde als priceFor) */
   const P=PRICES[id];if(!P)return null;
+  if(P.matrix){
+    const M=P.matrix;let mh=null;
+    const scan=a=>a.forEach(v=>{if(v!=null&&(mh===null||v<mh))mh=v;});
+    M.papers.forEach(scan);scan(M.p1);scan(M.p4);
+    if(mh===null)return null;
+    return Math.ceil(mh*Math.min(...M.col)*1.30*1.21*2)/2;
+  }
   let best=null;
   const upd=v=>{if(v!=null&&(best===null||v<best))best=v;};
   if(P.override)for(const gi in P.override)for(const oi in P.override[gi]){
