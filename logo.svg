@@ -1,0 +1,9 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+<circle cx="50" cy="50" r="50" fill="#fff"/>
+<g style="mix-blend-mode:multiply"><path d="M30 3 C40 5 43 15 39 26 C35 37 32 48 32 56 C32 61 27 61 25 54 C19 38 18 20 23 10 C25 5 28 3 30 3 Z" fill="#eecc44" opacity=".92"/></g>
+<g style="mix-blend-mode:multiply"><path d="M40 1 C32 9 22 21 13 33 C5 45 0 58 4 70 C9 79 19 75 21 64 C24 47 32 28 42 14 C44 8 43 3 40 1 Z" fill="#ee6633" opacity=".92"/></g>
+<g style="mix-blend-mode:multiply"><path d="M50 0 C60 -4 76 0 80 10 C84 22 78 34 72 44 C66 54 58 62 50 66 C45 68 44 62 46 54 C49 40 50 24 49 12 C49 5 49 1 50 0 Z" fill="#bb3388" opacity=".92"/></g>
+<g style="mix-blend-mode:multiply"><path d="M22 34 C50 26 80 28 94 40 C97 46 92 52 84 55 C70 59 54 58 44 52 C34 46 26 40 22 34 Z" fill="#dd3344" opacity=".88"/></g>
+<g style="mix-blend-mode:multiply"><path d="M5 75 C22 62 46 58 66 60 C80 62 92 56 97 60 C94 72 78 83 58 84 C38 85 14 84 5 75 Z" fill="#99cc55" opacity=".92"/></g>
+<g style="mix-blend-mode:multiply"><path d="M52 56 C42 68 28 78 12 82 C22 89 40 88 50 80 C57 73 57 62 52 56 Z" fill="#22aadd" opacity=".88"/></g>
+</svg>
